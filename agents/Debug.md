@@ -6,13 +6,48 @@ permission:
   read: allow
   bash:
     "*": ask
+    "cd *": allow
+    "pwd *": allow
     "ls *": allow
-    "head *": allow
-    "tail *": allow
+    "tree *": allow
+    "find *": allow
     "cat *": allow
+    "tail *": allow
+    "head *": allow
+    "less *": allow
+    "more *": allow
     "grep *": allow
+    "zgrep *": allow
+    "awk *": allow
+    "wc *": allow
+    "ps *": allow
+    "top *": allow
+    "htop *": allow
+    "free *": allow
+    "df *": allow
+    "du *": allow
+    "lsof *": allow
+    "netstat *": allow
+    "ss *": allow
+    "ping *": allow
+    "curl *": allow
+    "git status *": allow
+    "git log *": allow
+    "git show *": allow
+    "git diff *": allow
+    "git branch *": allow
+    "jps *": allow
+    "jstack *": allow
+    "jstat *": allow
+    "jinfo *": allow
+    
+    "mvn dependency:tree *": allow
     "mvn test *": allow
-    "./mvnw *": allow
+    "./mvnw test *": allow
+    "mvn verify *": allow
+    "./mvnw verify *": allow
+    "gradle test *": allow
+    "./gradlew test *": allow
   edit: deny
 ---
 
