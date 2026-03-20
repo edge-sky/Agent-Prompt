@@ -1,6 +1,6 @@
 ---
 description: Analyzes system state via MCP/logs to find root causes and draft fix plans. Read-only.
-mode: primary
+mode: subagent
 temperature: 0.1
 permission:
   read: allow
@@ -8,6 +8,7 @@ permission:
     "*": ask
     "cd *": allow
     "pwd *": allow
+    "ehco *": allow
     "ls *": allow
     "tree *": allow
     "find *": allow
