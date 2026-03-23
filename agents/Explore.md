@@ -14,6 +14,7 @@ permission:
     "tree *": allow
     "find *": allow
     "cat *": allow
+    "which *": allow
     "tail *": allow
     "head *": allow
     "less *": allow

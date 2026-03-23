@@ -22,6 +22,7 @@ permission:
     "awk *": allow
     "wc *": allow
     "ps *": allow
+    "which *": allow
     "top *": allow
     "htop *": allow
     "free *": allow
