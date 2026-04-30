@@ -13,8 +13,9 @@
 #### 状态流转
 ```
 OBSERVE-->PLAN-->EXECUTE-->REVIEW-->SYNC
-                    |       | 未通过
+                    |       | 
                     |-------|
+                      未通过
 ```
 
 ### Explore
