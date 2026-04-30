@@ -3,6 +3,8 @@ description: Strictly executes code modifications based on a provided plan. No d
 mode: subagent
 temperature: 0.0
 permission:
+  task:
+    "*": deny
   edit: allow
   bash: allow
 ---
